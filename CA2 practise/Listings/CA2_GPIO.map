@@ -1,0 +1,15 @@
+Component: Arm Compiler for Embedded 6.18 Tool: armlink [5e4cc100]
+
+==============================================================================
+
+Section Cross References
+
+    startup.o(RESET) refers to startup.o(STACK) for StackMem
+    startup.o(RESET) refers to dip_n_led.o(.text) for Start
+    startup.o(RESET) refers to main.o(.text) for Start
+    startup.o(RESET) refers to rd_porta.o(.text) for Start
+    dip_n_led.o(.text) refers to dip_n_led.o(DATA) for Result
+    dip_n_led.o(.text) refers to rd_porta.o(DATA) for Result
+    rd_porta.o(.text) refers to dip_n_led.o(DATA) for Result
+    rd_porta.o(.text) refers to rd_porta.o(DATA) for Result
+
